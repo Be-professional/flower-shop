@@ -45,6 +45,10 @@ header{
 
 } 
 
+.btn-primary:hover{
+    background-color: darkorchid;
+}
+
 /* main section  */
 
 main section{
@@ -108,14 +112,17 @@ main section{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
+    
 
 }
 .deal-container{
     display: flex;
     gap: 215px;
+    /* text-align: center; */
     align-items: center;
-    margin: 50px 240px;
+    margin: 100px 240px;
     text-align: center;
+    padding: 100px 0;
 }
 .deal-title{
     color: #272727;
@@ -161,6 +168,20 @@ main section{
     display: flex;
     gap: 24px;
     margin: 48px 240px;
+}
+
+.order{
+    margin-top: 5px;
+    color: #FFF;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+.order:hover{
+    background-color: darkmagenta;
 }
 
 .latest-deal{
