@@ -45,3 +45,61 @@ header{
     background: #E55473;
 
 } 
+
+/* main section  */
+
+main section{
+    margin-top: 100px;
+}
+
+/* Our Featured Flowers section  */
+.feature-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-subtitle{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.flower-tree{
+    display: flex;
+    gap: 24px;
+    /* margin-top: 48px; */
+    margin: 48px 240px;
+    
+    /* justify-content: space-around; */
+}
+
+.flower-item1{
+    width: 520px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15)
+}
+.flower-item2{
+    width: 520px;
+    height: 428px;;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-bottom: 20px;
+}
+
+.flower-item3{
+    width: 520px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.pink{
+    text-align: center;
+    text-decoration-line: underline;
+}
