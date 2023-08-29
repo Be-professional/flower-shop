@@ -135,3 +135,29 @@ main section{
     line-height: 30px;
     margin-top: 24px;
 }
+
+/* Instagram section   */
+
+.instagram-continer{
+    text-align: center;
+}
+
+.instagran-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-destription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.instagram-flower{
+    display: flex;
+    gap: 24px;
+    margin: 48px 240px;
+}
